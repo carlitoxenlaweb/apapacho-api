@@ -2,7 +2,7 @@ const nodemailer = require("nodemailer")
 
 const masterEmail = "soporte@apapachoamigo.com"
 const transporter = nodemailer.createTransport({
-  host: "smtp.titan.email",
+  host: "apapachoamigo.com",
   secure: true,
   port: 465,
   debug: false,
